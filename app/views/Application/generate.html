@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Documento - ${title}</title>
+        <link rel="stylesheet" href="@{'/public/stylesheets/generate.css'}" type="text/css" charset="utf-8">
+    </head>
+    <body>
+        <img src="/public/images/logo.png" alt="Play! logo" width="157" height="56">
+        <h3><img src="${user.avatarUrl}" width="40px" height="40px"/> Autorizado para uso de ${user.displayName}</h3>
+        <div id="content">
+            ${content.raw()}
+        </div> 
+    </body>
+</html>

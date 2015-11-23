@@ -1,0 +1,5 @@
+# Application dependencies
+
+require:
+    - play -> pdf 0.9
+    - play -> securesocial 0.2.6
